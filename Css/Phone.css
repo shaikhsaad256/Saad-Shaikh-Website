@@ -1,10 +1,15 @@
 html {
           scroll-behavior: smooth;
+          max-width: 100%;
+          overflow-x: hidden;
 }
 
 body {
-          background-color: black;
+          background-color: rgb(0, 0, 0);
           color: #F4DFC8;
+          max-width: 480px;
+          max-width: 100%;
+          overflow-x: hidden;
 
 }
 
@@ -22,53 +27,38 @@ body {
 
 /* Navbar */
 
-.Navbar {
-          padding-top: 1.50%;
-          margin-left: 6%;
+.nav {
+          visibility: hidden;
 }
 
-.nav {
-          position: relative;
-          display: inline;
-          list-style-type: none;
-          font-size: 1rem;
-          text-decoration: none;
-          font-family: 'Nunito', Arial, Helvetica, sans-serif;
-
+#homenave {
+          padding-left: 0rem;
 }
 
 .logo-right {
-          margin-bottom: 4%;
           position: relative;
-          padding-left: 43%;
+          margin-left: 20%;
           list-style-type: none;
 }
 
-a {
-          text-decoration: none;
-          color: white;
-}
-
-a:hover {
-          color: #F4DFC8;
-}
-
-
 .Logo {
-          height: 70px;
+          height: 100px;
 }
 
 h1 {
           position: relative;
           font-family: 'Sacramento', cursive;
           font-size: 300%;
-          padding-top: 6%;
+          margin-top: -40%;
+          text-align: center;
 }
 
 p {
           font-family: 'Nunito', Arial, Helvetica, sans-serif;
           font-size: 188%;
+          text-align: center;
 }
+
 
 .Home-container {
           position: absolute;
@@ -77,8 +67,8 @@ p {
 
 .hire-me {
           background-color: #F4DFC8;
-          width: 40%;
-          height: 375%;
+          width: 43%;
+          height: 50px;
           cursor: pointer;
           border-radius: 1.87rem 0.62rem 1.87rem 1.25rem;
           font-family: 'Nunito', Arial, Helvetica, sans-serif;
@@ -90,8 +80,8 @@ p {
           border: solid 0.2rem;
           border-color: #F4DFC8;
           background-color: transparent;
-          width: 40%;
-          height: 375%;
+          width: 45%;
+          height: 50px;
           cursor: pointer;
           border-radius: 0.62rem 1.87rem 1.25rem 1.87rem;
           color: #F4DFC8;
@@ -118,44 +108,39 @@ p {
 /* About */
 .About-container {
           position: relative;
-          margin-top: 200%;
+          margin-top: 150%;
 }
 
 .About-image {
 
-          padding-left: 40%;
+          padding-left: 30%;
           padding-top: 4%;
 
 }
 
 .Aboutme {
-          margin-top: 10%;
-          padding-left: 35%;
+          padding-left: 0%;
           font-size: 300%;
 }
 
 .About-paragraph {
           padding-bottom: 10%;
           position: relative;
+          text-align: center;
           width: 100%;
-          font-size: 150%;
+          font-size: 100%;
 }
 
 /* Contact */
-.Contact-container {
-          position: relative;
-}
 
 .Get-in-touch {
-          margin-top: 50%;
-          padding-left: 35%;
+
+          padding-left: 0%;
           font-size: 300%;
 }
 
-/*  */
-
 .Contact-paragraph {
-          margin-left: -30%;
+          margin-left: -45%;
           padding-bottom: 10%;
           position: relative;
           font-size: 150%;
@@ -167,41 +152,46 @@ p {
           padding-bottom: 10%;
           position: relative;
           text-align: center;
-          width: 110%;
-          font-size: 150%;
+          width: 90%;
+          font-size: 100%;
 }
 
 .Message-me {
-
-          margin-left: 2.5%;
-          border: solid 0.2%;
           border-color: #F4DFC8;
           background-color: transparent;
-          width: 60%;
-          height: 375%;
+          width: 50%;
+          height: 50px;
           cursor: pointer;
           border-radius: 2rem;
           color: #F4DFC8;
           font-family: 'Nunito', Arial, Helvetica, sans-serif;
-          font-size: 130%;
+          font-size: 150%;
 }
 
 .Phone {
-          visibility: hidden;
+
+          margin-left: 20%;
+          margin-top: 5%;
+          border-color: #F4DFC8;
+          background-color: transparent;
+          width: 70%;
+          height: 50px;
+          cursor: pointer;
+          border-radius: 2rem;
+          color: #F4DFC8;
+          font-family: 'Nunito', Arial, Helvetica, sans-serif;
+          font-size: 140%;
 }
 
 .a1 {
           margin-left: 20%;
+          
 
 }
 
 .bottom-para {
-          margin-top: 10%;
+
           margin-bottom: 3%;
           font-size: 100%;
           text-align: center;
-}
-
-.homenave{
-        visibility:none;
 }
