@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+}
+
+/* Nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.3rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav li {
+    font-size: 1.25rem;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: wheat;
+    border-bottom: 3px solid wheat;
+}
+
+/* Home Section */
+
+#background {
+    padding-top: 2rem;
+    padding-left: -10rem;
+}
+
+#background .circle {
+    position: absolute;
+    margin-left: -28rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    opacity: 70%;
+    background-color: #F4DFC8;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#background .circle2 {
+    position: absolute;
+    margin-left: -20rem;
+    height: 15rem;
+    width: 15rem;
+    opacity: 70%;
+    border-radius: 100%;
+    background-color: #F4DFC8;
+}
+
+#background .circle3 {
+    position: absolute;
+    margin-left: -28rem;
+    margin-top: 3rem;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 100%;
+    background-color: #baa996;
+    box-shadow: 20px 0px 100px 2px black;
+}
+
+/* Details Section */
+
+#details h1 {
+    position: relative;
+    font-family: 'Sacramento', 'cursive';
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+#details hr {
+    width: 220px;
+}
+
+#details p {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+#details .hire-me {
+    margin-top: 2rem;
+    background-color: #F4DFC8;
+    width: 7rem;
+    height: 2.3rem;
+    cursor: pointer;
+    border-radius: 1.87rem 0.62rem 1.87rem 1.25rem;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#details .hire-me>a {
+    text-decoration: none;
+    color: black;
+}
+
+#details .resume {
+    margin-left: 2rem;
+    border: solid 0.2rem;
+    border-color: #F4DFC8;
+    background-color: transparent;
+    width: 7rem;
+    height: 2.3rem;
+    cursor: pointer;
+    border-radius: 0.62rem 1.87rem 1.25rem 1.87rem;
+    color: #F4DFC8;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#details .resume img {
+    height: .7rem;
+}
+
+#Social-media {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+#Social-media img{
+    height: 2rem;
+}
+/* About Section  */
+
+#About img {
+    height: 10rem;
+    padding-left: 20rem;
+    padding-top: 7.5rem;
+
+}
+
+#About h1 {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Sacramento', 'cursive';
+
+}
+
+#About p {
+    font-size: 1.2rem;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-bottom: 10rem;
+    position: relative;
+    text-align: center;
+    width: 40rem;
+}
+
+/* Contact Section */
+
+#Contact h1 {
+    font-family: 'Sacramento', 'cursive';
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#Contact .paragraph1 {
+    margin: auto;
+    margin-top: 4rem;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 40rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#Contact .paragraph2 {
+    margin: auto;
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+    position: relative;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 40rem;
+    font-size: 1.7rem;
+}
+
+.ContactButton {
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-left: 20%;
+}
+
+.Message {
+    border: solid 0.2rem;
+    border-color: #F4DFC8;
+    background-color: transparent;
+    width: 15rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    color: #F4DFC8;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.Phone {
+    border: solid 0.2rem;
+    border-color: #F4DFC8;
+    background-color: transparent;
+    width: 15rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    color: #F4DFC8;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+#Contact .bottom-para {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    text-align: center;
+}
